@@ -8,4 +8,5 @@ dotnet restore
 echo "Before build!!!"
 
 ls -lah
-dotnet build
+
+dotnet build project.json
