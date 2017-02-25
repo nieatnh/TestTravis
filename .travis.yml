@@ -25,4 +25,3 @@ install:
   - export PATH="$DOTNET_INSTALL_DIR:$PATH"  
 script:  
     ls -lah
-    ./build.sh
