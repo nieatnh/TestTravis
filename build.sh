@@ -4,4 +4,8 @@ echo "I hate this script!!!"
 #set -e
 
 dotnet restore
+
+echo "Before build!!!"
+
+ls -lah
 dotnet build
